@@ -1,0 +1,27 @@
+.footer-nav {
+    margin-right: 70px;
+    width: 231px;
+  }
+
+  .footer-nav__logo {
+    display: inline-block;
+    margin-bottom: 20px;
+  
+    color: var(--additional-color);
+  }
+  
+  .address__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  
+  .address__link--map {
+    color: var(--additional-color);
+  }
+  
+  .address__link {
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+  }
