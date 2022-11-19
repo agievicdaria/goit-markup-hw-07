@@ -34,11 +34,6 @@ img {
   list-style: none;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -61,7 +56,12 @@ img {
   padding-right: 15px;
 }
 
-.btn {
+.projects, .clients, .team, .works, .features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.modal-form__btn, .footer-form__btn, .hero__btn {
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;

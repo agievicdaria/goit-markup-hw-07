@@ -1,3 +1,7 @@
+  .works {
+    @extend %section;
+  }
+  
   .works__list {
     display: flex;
   }

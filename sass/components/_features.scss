@@ -1,4 +1,7 @@
-
+.features {
+  @extend %section;
+}
+  
   .features__list {
     display: flex;
   }
